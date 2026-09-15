@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  If you use the terminology, propositions, or metrics of
+  Onymous Intelligence Studies, please cite the work as below.
+  若使用本术语体系、命题或指标族，请按以下格式引用。
+title: "Onymous Intelligence Studies: The Core Document (具名智能探索 · 核心文档)"
+version: 1.0
+date-released: 2026-09-16
+authors:
+  - name: "Onymous Intelligence Studies Project"
+    # TODO: 立名者署名 —— 替换为具名作者（个人或机构）。
+    # 本体系的原则同样适用于本文件：署名即具名，具名即负责。
+keywords:
+  - Onymous Intelligence
+  - 具名智能
+  - Ablation Zone
+  - 消融带
+  - attestation
+  - 具名签署
+  - Attestation Counter
+  - 具名柜台
+  - growth rings
+  - 年轮
+  - staked attestation
+  - 签付
+license: CC-BY-4.0
+repository-code: "https://github.com/OWNER/onymous-intelligence-studies"
+type: report
+notes: >-
+  Naming anchor: the initial public commit of this repository (2026-09-16)
+  establishes the naming priority of "Onymous Intelligence" (具名智能)
+  and its terminological system. 命名锚点：本仓库首次公开提交确立
+  "具名智能 / Onymous Intelligence" 及其术语体系的命名优先权。
