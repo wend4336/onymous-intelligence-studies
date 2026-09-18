@@ -1,0 +1,46 @@
+# w3id.org/onymous/ — Onymous Intelligence Studies 术语命名空间
+# Persistent URIs for the Onymous Intelligence terminological system.
+# 维护：wend4336 —— 修改解析目标请向 perma-id/w3id.org 提 PR 更新本文件。
+
+Options +FollowSymLinks
+RewriteEngine on
+
+# 根：命名空间主页 → 仓库 README（立名宣言）
+RewriteRule ^$ https://github.com/wend4336/onymous-intelligence-studies#readme [R=303,L]
+RewriteRule ^index(\.html?)?$ https://github.com/wend4336/onymous-intelligence-studies#readme [R=303,L]
+
+# 总纲
+RewriteRule ^onymous-intelligence/?$ https://github.com/wend4336/onymous-intelligence-studies#readme [R=303,L]
+RewriteRule ^onymity/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/GLOSSARY.md [R=303,L]
+
+# 三个本体与地带
+RewriteRule ^staked-attestor/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/00-naming/README.md [R=303,L]
+RewriteRule ^ablation-zone/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/00-naming/README.md [R=303,L]
+RewriteRule ^ablation-surface/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/00-naming/README.md [R=303,L]
+
+# 法：穿越与类型学
+RewriteRule ^traversal/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/01-law/README.md [R=303,L]
+RewriteRule ^six-flows/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/01-law/README.md [R=303,L]
+RewriteRule ^attestation-flow/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/01-law/README.md [R=303,L]
+RewriteRule ^evaporation/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/01-law/README.md [R=303,L]
+
+# 制：柜台
+RewriteRule ^attestation/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/GLOSSARY.md [R=303,L]
+RewriteRule ^counter/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/02-institution/README.md [R=303,L]
+RewriteRule ^attestation-counter/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/02-institution/README.md [R=303,L]
+RewriteRule ^ledgering/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/GLOSSARY.md [R=303,L]
+RewriteRule ^chargeback/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/02-institution/README.md [R=303,L]
+RewriteRule ^bad-debt/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/GLOSSARY.md [R=303,L]
+
+# 器：年轮与指标
+RewriteRule ^growth-rings/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/03-instrument/README.md [R=303,L]
+RewriteRule ^ring-metrics/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/03-instrument/README.md [R=303,L]
+RewriteRule ^TraversalEvent/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/spec/traversal-event.md [R=303,L]
+
+# 动与币
+RewriteRule ^gap/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/04-dynamics/README.md [R=303,L]
+RewriteRule ^domain-genres/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/04-dynamics/appendix-a-domain-genres.md [R=303,L]
+RewriteRule ^money-proposition/?$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/papers/05-currency/README.md [R=303,L]
+
+# 兜底：未列名路径 → 术语总表
+RewriteRule ^.*$ https://github.com/wend4336/onymous-intelligence-studies/blob/main/GLOSSARY.md [R=303,L]
