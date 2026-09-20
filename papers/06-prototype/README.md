@@ -1,8 +1,8 @@
-# 模块六 · 最小原型与对照实验（待立项）
+# 模块六 · 最小原型与对照实验（已立项 V0.1）
 
-**Module 6 · Minimal Prototype and Controlled Experiment (To Be Commissioned)**
+**Module 6 · Minimal Prototype and Controlled Experiment (Commissioned V0.1)**
 
-**状态**：待立项（Not yet commissioned）。本目录是占位——依据附件 A 发现三（不存在通用柜台，只存在类型的柜台），原型的设计必须在类型学约束下展开。
+**状态**：已立项 V0.1（Commissioned）——立项文档：[commissioning-v0.1-jev-typed-decision.md](./commissioning-v0.1-jev-typed-decision.md)（类型化决策件 Jev 进入对照设计，2×2 factorial）。以下为原占位页立项依据，保留备查——依据附件 A 发现三（不存在通用柜台，只存在类型的柜台），原型的设计必须在类型学约束下展开。
 
 ---
 
